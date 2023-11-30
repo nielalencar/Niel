@@ -1,6 +1,6 @@
 const user = {
   name: "Niel",
-  imageUrl: "/images/foto-profile.svg",
+  imageUrl: "https://github.com/nielalencar.png",
   design: "Design de interface",
   dev: "Dev Front-end",
 }
@@ -11,7 +11,7 @@ export function Profile() {
       <img
         src={user.imageUrl}
         alt={"Foto de perfil do" + user.name}
-        className="w-[77px] lg:w-[150px] h-[77px] lg:h-[150px] rounded-lg"
+        className="w-[85px] lg:w-[150px] h-[85px] lg:h-[150px] rounded-full"
       />
       <div>
         <h1 className="text-neutral-100 text-2xl font-bold font-roboto">

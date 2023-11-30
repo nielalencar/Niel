@@ -1,7 +1,7 @@
 const links = [
   {
     name: "GitHub",
-    icon: 'github-logo.svg',
+    icon: "github-logo.svg",
     href: "https://github.com/nielalencar",
   },
   {
@@ -27,10 +27,15 @@ export function Contacts() {
       {links.map((link) => (
         <li key={`${link.icon}-${link.name}-${link.href}`}>
           <span>
-          <a href={`${link.href}`} className="text-neutral-100 text-sm font-normal font-roboto inline-flex gap-2 cursor-pointer lg:hover:underline lg:hover:underline-offset-4">
-            <img src={link.icon} />
-            {link.name}
-          </a>
+            <a
+              href={`${link.href}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-100 text-sm font-normal font-roboto inline-flex gap-2 cursor-pointer lg:hover:underline lg:hover:underline-offset-4"
+            >
+              <img src={link.icon} />
+              {link.name}
+            </a>
           </span>
         </li>
       ))}
