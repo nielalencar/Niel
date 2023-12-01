@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Welcome } from './routes/Welcome.jsx'
 import { Projects } from './routes/Projects.jsx'
 import { Technologies } from './routes/Technologies.jsx'
+import { Form } from './routes/Form.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/tecnologias",
         element: <Technologies />
+      },
+      {
+        path: "/contato",
+        element: <Form />
       },
     ]
   },
