@@ -1,8 +1,8 @@
 const itens = [
   {
-    image: "insight-sales-img.png",
+    image: "/images/insight-sales-img.png",
     href: "https://main--venerable-snickerdoodle-1ffda1.netlify.app/",
-    icon: "/insight-sales-icon.png",
+    icon: "/images/insight-sales-icon.png",
     title: "Insight Sales",
   },
   //   {
