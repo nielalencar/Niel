@@ -18,7 +18,7 @@ export function Form() {
           className="flex flex-col items-start justify-center gap-3"
         >
           <input
-            className="w-full md:w-[366px] h-10 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
+            className="w-full md:w-[466px] h-10 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
             type="text"
             placeholder="Digite seu nome"
             onChange={(e) => setName(e.target.value)}
@@ -26,7 +26,7 @@ export function Form() {
           />
 
           <input
-            className="w-full md:w-[366px] h-10 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
+            className="w-full md:w-[466px] h-10 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
             type="text"
             placeholder="Digite seu email"
             onChange={(e) => setEmail(e.target.value)}
@@ -34,7 +34,7 @@ export function Form() {
           />
 
           <textarea
-            className="w-full md:w-[366px] h-32 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
+            className="w-full md:w-[466px] h-32 px-4 py-1 bg-neutral-900 rounded border border-red-700 flex-col justify-center items-start gap-2.5 inline-flex"
             placeholder="Digite sua mensagem..."
             onChange={(e) => setMessage(e.target.value)}
             value={message}
