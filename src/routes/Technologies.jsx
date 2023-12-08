@@ -91,7 +91,7 @@ export function Technologies() {
   }
 
   return (
-    <section className="md:mx-14 lg:mx-40 xl:mx-48 2xl:mx-96 my-10 md:my-20 flex flex-col items-center justify-center gap-20">
+    <section className="md:mx-14 lg:mx-40 xl:mx-48 2xl:mx-96 my-10 flex flex-col items-center justify-center gap-20">
       <h1 className="mx-8 text-neutral-100 text-base md:text-xl font-roboto font-bold tracking-tight">
         O Criador Protagonista: Ferramentas que me acompanham na jornada tech.
       </h1>

@@ -21,7 +21,7 @@ const itens = [
 
 export function Projects() {
   return (
-    <section className="flex flex-col items-center gap-8 md:gap-10 py-10 md:py-20 mx-8 md:mx-14 lg:mx-40 xl:mx-48 2xl:mx-96">
+    <section className="flex flex-col items-center gap-8 md:gap-10 py-10 mx-8 md:mx-14 lg:mx-40 xl:mx-48 2xl:mx-96">
       <h1 className="text-neutral-100 text-base md:text-xl font-roboto font-bold tracking-tight">
         Explorando Projetos: O Criador na Vanguarda da Experiência Tech.
       </h1>
