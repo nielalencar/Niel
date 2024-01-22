@@ -31,7 +31,7 @@ export function Contacts() {
               href={`${link.href}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-100 text-sm font-normal font-roboto inline-flex gap-2 cursor-pointer lg:hover:underline lg:hover:underline-offset-4"
+              className="text-neutral-100 text-sm font-normal font-roboto inline-flex gap-2 cursor-pointer decoration-red-700 lg:hover:underline lg:hover:underline-offset-4"
             >
               <img src={link.icon} />
               {link.name}
