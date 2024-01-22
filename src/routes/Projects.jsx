@@ -29,8 +29,7 @@ export function Projects() {
         {itens.map((item) => (
           <li key={`${item.image}-${item.href}-${item.icon}-${item.title}`}>
             <a href={item.href} target="_blank" rel="noopener noreferrer">
-              <img src={item.image} className="rounded-t-lg"></img>
-              <div className="flex items-center justify-start bg-stone-900 px-6 py-2 gap-4 rounded-b-lg">
+              <div className="flex items-center justify-start bg-stone-900 px-6 py-2 gap-4 rounded-t-lg">
                 <img
                   src={item.icon}
                   className="w-[42px] h-[42px] p-2 bg-stone-950 rounded-full"
@@ -39,6 +38,7 @@ export function Projects() {
                   {item.title}
                 </h1>
               </div>
+              <img src={item.image} className="rounded-b-lg"></img>
             </a>
           </li>
         ))}
